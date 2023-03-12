@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+.active {
+    text-decoration-line: underline;
+}
+* { margin: 0;
+    padding: 0;
+    border: none;}
+    
 a  { text-decoration: none;}
 
 #logo { font-family: Bungee, 'Arial Narrow Bold', sans-serif;
@@ -10,13 +18,48 @@ a  { text-decoration: none;}
         -webkit-text-stroke-color: black;  
         stroke:black;
     text-align: center;
+    animation-name: logo-mouseout;
+    animation-duration: 0.2s;
    
 }
 
-#logo:hover {color:rgb(255, 0, 0)}
+#logo:hover {color:rgb(255, 0, 0);
+animation-name: logo-zoom;
+animation-duration: .1s;
+animation-fill-mode: forwards;
+}
 
-li { position: relative;
+@keyframes logo-zoom {
+    from { transform: scale(1);
+
+    }
+    to {
+transform: scale(1.1);
+    }
+
+}
+
+@keyframes logo-mouseout {
+    from { transform: scale(1.1);
+
+    }
+    to {
+transform: scale(1);
+    }
+
+}
+
+li { font-family: Lato, 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    position: relative;
     padding: 0%;
      display: inline;
     font-size: x-large;
-text-align: right;}
+text-align: right;
+float: right;
+letter-spacing: 1px;}
+
+i {font-size: 18px;}
+
+.menuhover {color:rgb(0, 0, 0)}
+.menuhover:hover {text-decoration: underline;}
