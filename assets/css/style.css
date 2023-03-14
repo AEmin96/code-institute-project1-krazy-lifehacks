@@ -124,11 +124,10 @@ text-align: center;
 }
 
 #formbox {
-    font-family: Lato, Courier, monospace;
+    font-family: Bungee, Courier, monospace;
     text-transform: uppercase;
-    font-size: x-large;
-    margin: 50px 0 50px 0;
-    color: #fff;
+    font-size: large;
+    color: #000000;
     background-color:rgba(255, 208, 1, 0.486); 
     border-color: #3a3a3a;
     border-width: 2px;
@@ -138,8 +137,43 @@ text-align: center;
     max-height: 500px;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 10%;
     transform: translate(-50%, 0%);
     margin: 0 auto;
     padding: 30px;
+}
+
+input[type="text"]
+{
+    font-size:24px;
+    font-family: Lato, Courier, monospace;
+    font-weight: bold;
+}
+
+input[type="email"]
+{
+    font-size:24px;
+    font-family: Lato, Courier, monospace;
+    font-weight: bold;
+}
+textarea
+{
+    font-size:24px;
+    font-family: Lato, Courier, monospace;
+    font-weight: bold;
+}
+
+#submit {
+    font-size:24px;
+    position: fixed;
+    top: 500px;
+    left: 160px;
+    font-family: Lato, Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:rgba(255, 255, 255, 0.562); 
+    border-color: #3a3a3a;
+    border-width:4px;
+    border-style:groove;
+    border-style: double;
 }
