@@ -1,127 +1,202 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-header {border: 30px rgba(96, 172, 209, 0.788) solid;}  
-
 .active {
     text-decoration-line: underline;
 }
+
+a {text-decoration: none;}
+
 * { margin: 0;
     padding: 0;
     border: none;}
-    
-a  { text-decoration: none;}
 
+header {background-color: rgb(96, 172, 209);}
+    
 #logo { font-family: Bungee, 'Arial Narrow Bold', sans-serif;
-position: fixed;
-left: 37%;
-top: -35px;
-    font-size: 50px;
-    margin-top: 3px ;
+        font-size: 42px;
+        text-align: center;
         color: cornsilk;
         -webkit-text-stroke-width:thin;   
         -webkit-text-stroke-color: black;  
-        stroke:black;
-    text-align: center;
-    animation-name: logo-mouseout;
-    animation-duration: 0.2s;
-   
+         stroke:black;
+        animation-name: logo-mouseout;
+        animation-duration: 0.2s;
 }
 
 #logo:hover {color:rgb(255, 0, 0);
-animation-name: logo-zoom;
-animation-duration: .1s;
-animation-fill-mode: forwards;
-}
-
-@keyframes logo-zoom {
-    from { transform: scale(1);
-
+    animation-name: logo-zoom;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
     }
-    to {
-transform: scale(1.1);
+    
+    @keyframes logo-zoom {
+        from { transform: scale(1);
+    
+        }
+        to {
+    transform: scale(1.1);
+        }
+    
     }
-
-}
-
-@keyframes logo-mouseout {
-    from { transform: scale(1.1);
-
-    }
-    to {
-transform: scale(1);
-    }
-
-}
-nav {position: absolute;
-float: right;
-right: 0%
-}
-
-li { font-family: Lato, 'Helvetica Neue', sans-serif;
-    font-weight: 900;
-    position: relative;
-    padding: 0%;
-     display: inline;
-    font-size: x-large;
-text-align: right;
-float: right;
-letter-spacing: 1px;}
-
-i {font-size: 18px;}
-
+nav {position:relative;
+        font-family: Lato, 'Helvetica Neue', sans-serif;
+        font-weight: 900;
+        font-size: x-large;
+        text-align: center;
+        }
+        
+        li { display: inline;}
+        
+        i {font-size: 18px;}
+        
 .menuhover {color:rgb(0, 0, 0)}
 .menuhover:hover {text-decoration: underline;}
 
-#about {
-    background-color:rgba(255, 208, 1, 0.486); 
-    border-color: #3a3a3a;
-    border-width: 2px;
-    border-style:groove;
-    margin: auto;
-    width: 30%;
-    padding: 0;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 15%;
-    text-align: center;
-}
-
-h3 {font-family: Lato, Courier, monospace;
-text-align: center;
-font-size: 25px;
-margin: auto;
-}
-
 body {background-image: url("../images/background.jpg");
-background-size: 100%;
-background-color: rgba(163, 218, 244, 0.548) ;}
+            background-size: 100%;
+            background-color: rgba(163, 218, 244, 0.548);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;}
 
-footer {
-    height: 150px;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    transform: translate(-50%, 0%);
-    margin: 0 auto;
-    clear: both;
+ #about {       font-family: Lato, Courier, monospace;
+                text-align: center;
+                background-color:rgba(255, 208, 1, 0.486); 
+                border-color: #3a3a3a;
+                border-width: 2px;
+                border-style:groove;
+                width: 55%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1%;
+                top: 15%;
+                text-align: center;
+            }
+
+h3 {
+               
+                font-size: 25px;
+                margin: auto;
+                }
+
+
+footer { 
+                    height: 80px;
+                position: relative;
+                margin-top: auto;
+            }
+
+            .social-networks {
+                text-align: center;
+                }
+                .social-networks > li {
+                    display: inline;
+                }
+                .social-networks i {
+                    font-size: 460%;
+                    color: #3a3a3a;
+                letter-spacing: 5px;}
+
+
+#formbox {
+                    font-family: Bungee, Courier, monospace;
+                    text-transform: uppercase;
+                    font-size: large;
+                    color: #000000;
+                    background-color:rgba(255, 208, 1, 0.486); 
+                    border-color: #3a3a3a;
+                    border-width: 2px;
+                    border-style:groove;
+                    border-style: double;
+                    max-width: 400px;
+                    max-height: 500px;
+                    position: relative;
+                    top: 5px;
+                    margin: 0 auto;
+                    padding: 30px;
+                }
+                
+                input[type="text"]
+                {
+                    font-size:24px;
+                    font-family: Lato, Courier, monospace;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                
+                input[type="email"]
+                {
+                    font-size:24px;
+                    font-family: Lato, Courier, monospace;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                textarea
+                {
+                    font-size:24px;
+                    font-family: Lato, Courier, monospace;
+                    font-weight: bold;
+                    text-align: center;
+                    resize: none;
+                }
+                #submit {
+                    font-size:24px;
+                    position: relative;
+                    margin-left: 33%;
+                    bottom: 6px;
+                    font-family: Lato, Courier, monospace;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 5px;
+                    background-color:rgba(255, 255, 255, 0.562); 
+                    border-color: #3a3a3a;
+                    border-width:4px;
+                    border-style:groove;
+                    border-style: double;
+                    cursor: pointer;
+                    
+                }
+
+@media screen and (max-width: 1268px)
+{  
+body {background-size: 350%;}
+}
+
+@media screen and (max-width: 513px)
+{ #logo {font-size: 30px;}
+nav {font-size: large;}
+body {background-size: 450%;}
+
+}
+
+@media screen and (max-width: 306px)
+{ #logo {font-size: 24px;}
+  nav {font-size: medium;}
+  body {background-size: 500%;}
+ }
+
+@media screen and (max-width: 254px)
+{ #logo {font-size: 20px;}
+  nav {font-size: small;}
+  body {background-size: 550%;}
+
+}
+
+
+
+
+
+/*
+
+
+
+
+
+
+
     
-}
-.social-networks {
-text-align: center;
-}
-.social-networks > li {
-    display: inline;
-    letter-spacing: 20px;
-}
-.social-networks i {
-    font-size: 360%;
-    color: #3a3a3a;
-
-}
 
 #formbox {
     font-family: Bungee, Courier, monospace;
@@ -163,20 +238,7 @@ textarea
     font-weight: bold;
 }
 
-#submit {
-    font-size:24px;
-    position: fixed;
-    top: 500px;
-    left: 160px;
-    font-family: Lato, Courier, monospace;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color:rgba(255, 255, 255, 0.562); 
-    border-color: #3a3a3a;
-    border-width:4px;
-    border-style:groove;
-    border-style: double;
-}
+
 
 #photos {
     clear:both;
