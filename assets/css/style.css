@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-header {border: 2px rgba(5, 5, 5, 0.411) solid;
-background-color: rgb(163,218,244)}
+header {border: 30px rgba(96, 172, 209, 0.788) solid;}  
 
 .active {
     text-decoration-line: underline;
@@ -14,6 +13,9 @@ background-color: rgb(163,218,244)}
 a  { text-decoration: none;}
 
 #logo { font-family: Bungee, 'Arial Narrow Bold', sans-serif;
+position: fixed;
+left: 37%;
+top: -35px;
     font-size: 50px;
     margin-top: 3px ;
         color: cornsilk;
@@ -71,10 +73,22 @@ i {font-size: 18px;}
 .menuhover {color:rgb(0, 0, 0)}
 .menuhover:hover {text-decoration: underline;}
 
+#about {
+    margin: auto;
+    width: 30%;
+    padding: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+}
 h3 {font-family: Lato, Courier, monospace;
 text-align: center;
-font-size: 30px;
-width: 33%;
+font-size: 20px;
+
 margin: auto;
 }
 
@@ -84,11 +98,13 @@ background-color: rgba(163, 218, 244, 0.548) ;}
 
 footer {
     height: 150px;
-    position: fixed;
+    position: absolute;
     left: 50%;
     bottom: 0px;
     transform: translate(-50%, 0%);
     margin: 0 auto;
+    clear: both;
+    
 }
 .social-networks {
 text-align: center;
@@ -101,4 +117,18 @@ text-align: center;
     font-size: 360%;
     color: #3a3a3a;
 
+}
+
+#formbox {
+    margin: 50px 0 50px 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    max-height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0%);
+    margin: 0 auto;
+    padding: 30px;
 }
