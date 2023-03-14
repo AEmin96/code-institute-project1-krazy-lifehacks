@@ -232,16 +232,17 @@ textarea
 }
 
 @media screen and (max-width: 280px)
-{ #logo { position: fixed;
-    left: 10px;
-    top: 0px;
-        font-size: 25px;
-        margin-top: 0px ;}
-        li {font-size: 12px;}
-        i {font-size: 12px;}
+{ #logo { position: absolute;
+          left: 50px;
+         font-size: 18px;
+        
+    }
+
+        li {font-size: 11px;}
+        i {font-size: 11px;}
         nav {
-            position: fixed;
-            right: 159px;
+            position: absolute;
+            right: 69px;
             top: 44px;
            
         }
@@ -249,7 +250,7 @@ textarea
            
             font-size: 10px;
             max-width: 250px;
-            max-height: 600px;
+            max-height: 450px;
             position: absolute;
             left: 50%;
             top: 10%;
@@ -257,6 +258,19 @@ textarea
             margin: 0 0 10 5;
             padding: 2px;
         }
+        #submit {position: fixed; left: 75px; top: 400px;}
+        textarea {scale: 0.6; position: relative; left: -75px; top: -50px;}
         body {background-image: url("../images/background.jpg");
             background-size: 500%;
             background-color: rgba(163, 218, 244, 0.548) ;}
+
+            
+            .social-networks {position: relative; bottom: -50px;}
+            #about {
+                width: 90%;
+                padding: 0px;
+                position: absolute;}
+    #photos { position:absolute;
+                column-count: 1;}
+               
+            }
