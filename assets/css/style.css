@@ -187,3 +187,76 @@ textarea
 #photos > img {
     width: 100%;
 }
+
+@media screen and (max-width: 1399px)
+{ #logo { position: absolute;
+    left: 37%;
+    top: -10px;
+        font-size: 30px;
+        margin-top: 3px ;}
+        nav {
+            position: fixed;
+            right: 400px;
+            top: 60px;
+        }
+}
+
+@media screen and (max-width: 800px)
+{ #logo { position: absolute;
+    left: 30%;
+    top: -10px;
+        font-size: 30px;
+        margin-top: 3px ;}
+        li { 
+            font-weight: 900;
+            position: relative;
+             display: inline;
+            font-size: medium;
+        text-align: right;
+        float: right;
+        letter-spacing: 1px;}
+}
+
+
+@media screen and (max-width: 500px)
+{ #logo { position: absolute;
+    left: 12%;
+    top: -5px;
+        font-size: 20px;
+        margin-top: 3px ;}
+ nav {
+            position: fixed;
+            right: 140px;
+            top: 40px;
+        }
+}
+
+@media screen and (max-width: 280px)
+{ #logo { position: fixed;
+    left: 10px;
+    top: 0px;
+        font-size: 25px;
+        margin-top: 0px ;}
+        li {font-size: 12px;}
+        i {font-size: 12px;}
+        nav {
+            position: fixed;
+            right: 159px;
+            top: 44px;
+           
+        }
+        #formbox {
+           
+            font-size: 10px;
+            max-width: 250px;
+            max-height: 600px;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%, 0%);
+            margin: 0 0 10 5;
+            padding: 2px;
+        }
+        body {background-image: url("../images/background.jpg");
+            background-size: 500%;
+            background-color: rgba(163, 218, 244, 0.548) ;}
