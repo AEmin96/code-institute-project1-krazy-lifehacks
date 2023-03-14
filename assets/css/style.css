@@ -124,9 +124,16 @@ text-align: center;
 }
 
 #formbox {
+    font-family: Lato, Courier, monospace;
+    text-transform: uppercase;
+    font-size: x-large;
     margin: 50px 0 50px 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color:rgba(255, 208, 1, 0.486); 
+    border-color: #3a3a3a;
+    border-width: 2px;
+    border-style:groove;
+    border-style: double;
     max-width: 400px;
     max-height: 500px;
     position: absolute;
