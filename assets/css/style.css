@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+header {border: 2px rgba(5, 5, 5, 0.411) solid;
+background-color: rgb(163,218,244)}
+
 .active {
     text-decoration-line: underline;
 }
@@ -48,6 +51,10 @@ transform: scale(1);
     }
 
 }
+nav {position: absolute;
+float: right;
+right: 0%
+}
 
 li { font-family: Lato, 'Helvetica Neue', sans-serif;
     font-weight: 900;
@@ -63,3 +70,35 @@ i {font-size: 18px;}
 
 .menuhover {color:rgb(0, 0, 0)}
 .menuhover:hover {text-decoration: underline;}
+
+h3 {font-family: Lato, Courier, monospace;
+text-align: center;
+font-size: 30px;
+width: 33%;
+margin: auto;
+}
+
+body {background-image: url("../images/background.jpg");
+background-size: 100%;
+background-color: rgba(163, 218, 244, 0.548) ;}
+
+footer {
+    height: 150px;
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, 0%);
+    margin: 0 auto;
+}
+.social-networks {
+text-align: center;
+}
+.social-networks > li {
+    display: inline;
+    letter-spacing: 20px;
+}
+.social-networks i {
+    font-size: 360%;
+    color: #3a3a3a;
+
+}
