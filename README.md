@@ -41,4 +41,22 @@
   
 <h2> Validator Testing </h2>
 
+<h3> HTML </h3>
+
+![html](https://user-images.githubusercontent.com/126208272/225433919-90a1acba-7935-4e55-a052-3d1dcf61d145.png)
+
+<h3> CSS </h3>
+
+![Css](https://user-images.githubusercontent.com/126208272/225433943-ebe37e0d-b10e-4027-86fe-e40fd9f0e6ca.png)
+
+<h3> Accessibility  </h3>
+
 ![Lighthouse](https://user-images.githubusercontent.com/126208272/225413408-8e2d3935-f589-4081-8ded-d07f3724e289.png)
+<h2> Deployment </h2>
+<h3> This site was deployed using GitHub Pages </h3>
+
+<h2> Credits </h2>
+
+<h3> Content </h3>
+<p> Social Media icons taken from CI Love Running project </p>
+<p> Hack photos taken from https://winkgo.com/ </p>
