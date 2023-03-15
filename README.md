@@ -31,7 +31,7 @@
  
  <p> This website was tested on Google Chrome, Firefox, Opera and Microsoft Edge. </p>
  <p> This website was tested and confirmed that it's responsive and all functions worked well on several devices.</p>
- <p> The form is all set-up, however, currently it doesn't have a "POST" function. </p>
+ <p> <em> The form is all set-up, however, currently it doesn't work since Github Pages does not support server side programs </em> </p>
   
   
  <h2> Bugs </h2>
