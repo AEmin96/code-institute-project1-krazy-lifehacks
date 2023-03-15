@@ -12,7 +12,7 @@ a {text-decoration: none;}
     border: none;}
 
 header {background-color: rgb(96, 172, 209);}
-    
+
 #logo { font-family: Bungee, 'Arial Narrow Bold', sans-serif;
         font-size: 42px;
         text-align: center;
@@ -20,24 +20,11 @@ header {background-color: rgb(96, 172, 209);}
         -webkit-text-stroke-width:thin;   
         -webkit-text-stroke-color: black;  
          stroke:black;
-        animation-name: logo-mouseout;
-        animation-duration: 0.2s;
+        
 }
 
 #logo:hover {color:rgb(255, 0, 0);
-    animation-name: logo-zoom;
-    animation-duration: .1s;
-    animation-fill-mode: forwards;
-    }
-    
-    @keyframes logo-zoom {
-        from { transform: scale(1);
-    
-        }
-        to {
-    transform: scale(1.1);
-        }
-    
+
     }
 nav {position:relative;
         font-family: Lato, 'Helvetica Neue', sans-serif;
