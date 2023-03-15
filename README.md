@@ -54,6 +54,7 @@
 ![Lighthouse](https://user-images.githubusercontent.com/126208272/225413408-8e2d3935-f589-4081-8ded-d07f3724e289.png)
 <h2> Deployment </h2>
 <h3> This site was deployed using GitHub Pages </h3>
+<h3> Link for the website - https://aemin96.github.io/code-institute-project1-krazy-lifehacks/ </h3>
 
 <h2> Credits </h2>
 
