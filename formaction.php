@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<body>
+
+
+
 <form method="get" action="/formaction.php" id="formbox">
         <label for="fname" class="labels">First Name : </label>
         <br>
@@ -15,3 +23,8 @@
         <textarea id="textarea"></textarea> <br>
         <input type="submit" id="submit">
         </form>
+
+
+      
+</body>
+</html>
