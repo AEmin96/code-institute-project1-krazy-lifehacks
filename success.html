@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags for character set, viewport, description, and keywords -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website for tips that can make your life easier!">
     <meta name="keywords" content="lifehacks, life tips, hacks, tips">
+    
+    <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>KraZy Life-Hacks</title>
 </head>
@@ -20,38 +23,22 @@
             <ul id="menu">
                 <!-- Navigation links -->
                 <li>
-                    <a href="index.html" class="menuhover"><i class="fas fa-house"></i>HOME</a>
+                    <a href="index.html" class="menuhover active"><i class="fas fa-house"></i>HOME</a>
                 </li>
                 <li>
                     <a href="hacks.html" class="menuhover"><i class="fas fa-lightbulb"></i>HACKS</a>
                 </li>
                 <li>
-                    <a href="share.html" class="menuhover active"><i class="fas fa-share"></i>SHARE A HACK!</a>
+                    <a href="share.html" class="menuhover"><i class="fas fa-share"></i>SHARE A HACK!</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <!-- Form section for users to submit their hacks -->
-    <form action="success.html" id="formbox">
-        <label for="fname" class="labels">First Name :</label>
-        <br>
-        <input type="text" name="fname" id="fname" required>
-        <br>
-        <label for="lname" class="labels">Last Name :</label>
-        <br>
-        <input type="text" name="lname" id="lname" required>
-        <br>
-        <label for="email" class="labels">Email Address :</label>
-        <br>
-        <input type="email" name="email" id="email" required>
-        <br>
-        <!-- Text area for users to describe their hack -->
-        <p class="labels">Describe Your Hack Below:</p>
-        <textarea id="textarea" required></textarea>
-        <br>
-        <input type="submit" id="submit">
-    </form>
+    <!-- Section displaying an error message (404 page not found) -->
+    <div id="about">
+        <h1>ERROR 404. <br> PAGE NOT FOUND. <br> PLEASE NAVIGATE OUT OF THIS PAGE USING THE MENU ABOVE!</h1>
+    </div>
 
     <!-- Footer section with social media links -->
     <footer>
@@ -75,12 +62,8 @@
         </ul>
     </footer>
 
+    <!-- Font Awesome script -->
     <script src="https://kit.fontawesome.com/b36dbb4563.js" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
-
-
-
-    
