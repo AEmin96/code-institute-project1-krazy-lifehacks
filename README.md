@@ -18,12 +18,12 @@
 <p><strong>Home:</strong> The landing page with a brief description of the website and its purpose.</p>
 <p>A welcoming and user-friendly design.</p>
 
-![225414967-a5ebe5a4-53d6-496a-9b23-0485da178ec7](https://github.com/AEmin96/code-institute-project1-krazy-lifehacks/assets/126208272/8d05a0b4-5e68-4a6c-96c0-1f2459d6f28a)
+
 
 
 <p><strong>Hacks:</strong></p>
 
-![225414993-6454f5ea-d8c4-48e6-a367-af94314e56b4](https://github.com/AEmin96/code-institute-project1-krazy-lifehacks/assets/126208272/bd146ef7-7c10-4553-a5fc-5cb79e795845)
+
 
 
 <p>A page where users can explore various life hacks presented in picture format.</p>
@@ -37,10 +37,68 @@
 <p>A section allowing users to share their own experiences and inventions.</p>
 <p>A simple and intuitive form for hack submission.</p>
 
-<h2>Testing:</h2>
+<h2>Test Cases:</h2>
 
-<p><strong>The website has been thoroughly tested on multiple browsers, including Google Chrome, Firefox, Opera, and Microsoft Edge, to ensure compatibility.</strong></p>
-<p><strong>It has been verified for responsiveness across various devices to provide a seamless experience.</strong></p>
+<h4>Home Page Testing</h4>
+
+<i> Description: Verify the functionality of three top navigation bars and visibility of four social media icons at the bottom of the home page. </i>
+
+Steps:
+
+1. Check top navigation bars for expected menu items and click each to validate redirection.
+2. Verify presence and links of social media icons at the bottom of the page.
+3. Test responsiveness by resizing the browser window.
+
+Expected: All navigation bars and social media icons work correctly, and icons remain visible on different devices. <br>
+Screenshot: 
+![225414967-a5ebe5a4-53d6-496a-9b23-0485da178ec7](https://github.com/AEmin96/code-institute-project1-krazy-lifehacks/assets/126208272/8d05a0b4-5e68-4a6c-96c0-1f2459d6f28a)
+
+<h4>Hacks Page Testing</h4>
+
+
+<i> Description: Verify Hacks page layout with images and captions, matching the homepage. </i>
+
+Steps:
+
+1. Go to the Hacks page from the homepage or navigation bar.
+2. Check for consistent layout with three top navigation bars and four social media icons at the bottom.
+3. Confirm images are displayed correctly with accompanying captions.
+
+Expected: Hacks page layout matches the homepage, and images with captions are presented accurately. <br>
+Screenshot: 
+![225414993-6454f5ea-d8c4-48e6-a367-af94314e56b4](https://github.com/AEmin96/code-institute-project1-krazy-lifehacks/assets/126208272/bd146ef7-7c10-4553-a5fc-5cb79e795845)
+
+<h4>Share a Hack Page Testing </h4>
+
+<i> Description: Verify the Share a Hack form functionality, ensuring all input sections are required, and successful form submission redirects to the success page. </i>
+
+Test Steps:
+
+<i> Navigate to the Share a Hack Form: </i>
+
+Step 1: Access the Share a Hack section from the homepage or navigation bar.
+Input Required Information:
+
+Step 1: Enter a valid name in the "Name" field. <br>
+Step 2: Enter a valid last name in the "Last Name" field. <br>
+Step 3: Provide a valid email address in the "Email" field. <br>
+Step 4: Input the hack details in the "Your Hack" field. <br>
+
+<i> Submit the Form: </i>
+
+Step 1: Click on the "Submit" button after completing all required fields.
+Expected Results:
+
+If any of the required input sections are left blank or contain invalid data:
+The form should not submit and display an appropriate error message for the missing fields.
+
+![fair](https://github.com/AEmin96/code-institute-project1-krazy-lifehacks/assets/126208272/4f67861b-f87b-474b-ae42-6f114472ad53)
+
+
+If all required input sections are filled correctly and the "Submit" button is clicked:
+The user should be redirected to the success page confirming the successful hack submission.
+
+![sux](https://github.com/AEmin96/code-institute-project1-krazy-lifehacks/assets/126208272/434e28c2-534e-42ce-92d5-07b5a4d278b1)
 
 
 <h2>Bugs:</h2>
@@ -65,18 +123,29 @@
 
 <h2>Deployment:</h2>
 
-<p><strong>The website has been successfully deployed using GitHub Pages, providing easy access to users.</strong></p>
-Here are the steps I took to deploy my website using GitHub Pages:
+<p><strong>This website has been successfully deployed using CodeAnywhere and GitHub Pages, providing easy access to users.</strong></p>
+Here are the steps I took to deploy my website :
+<br>
+<br>
+<strong> CodeAnywhere </strong>
+<br>
+<br>
+1. Installed CodeAnywhere browser extension. <br> 
+2. Opened the project repository in CodeAnywhere <br>
+3. Wrote the code & css and added images. <br>
+4. Tested the webpage in CodeAnywhere's browser preview. <br>
+5. Comitted and pushed my repository to GitHub. <br>
+<br><br>
+<strong> GitHub Pages </strong>
+<br><br>
 
-1. Create a GitHub Repository: I started by creating a new repository on GitHub. I logged into my GitHub account, clicked on the "+ New" button on the top right corner of my dashboard, and provided a name for my repository.
+1. Clicked on "Settings" tab on my repository.
+2. Clicked on "Pages" menu.
+4. Selected the branch to deploy.
+5. Verified the website's deployment at the provided GitHub Pages link.
 
-2. Write the Code: Once the repository was created, I wrote all the necessary code for my website. This included HTML, CSS, JavaScript files, images, and any other assets required for my website to function properly.
 
-3. Configure Repository Settings: To enable GitHub Pages for my repository, I went to the repository's "Settings" tab, scrolled down to the "GitHub Pages" section, and chose the branch I wanted to deploy (usually the main branch or gh-pages branch). I saved my changes.
 
-4. Verify Deployment: GitHub Pages then built and deployed my website. Once the process was completed, I visited the link provided in the "GitHub Pages" section of my repository's settings to verify that my website was live and accessible.
-
-5. Update and Maintain: With my website now deployed, I can continue to make updates to my code and push changes to the repository. GitHub Pages automatically reflects these changes on my live website. I'll be sure to regularly maintain and update my site as needed.
 <h2>Credits:</h2>
 
 <p><strong>Social media icons sourced from CI Love Running project.</strong></p>
